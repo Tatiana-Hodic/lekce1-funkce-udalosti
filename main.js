@@ -19,3 +19,7 @@ function secti(a, b) {
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
 }
+
+function soucet(){
+	document.querySelector("#vysledek").innerHTML = secti(4, 5);
+}
