@@ -1,7 +1,5 @@
 // tady je místo pro náš program
 
-document.querySelector("#vysledek").innerHTML = secti(4, 5);
-
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
  *
@@ -20,6 +18,22 @@ function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
 }
 
+function upozorni() {
+	document.querySelector('.ctverecek').innerHTML = 'Gratulace, právě jsi spustila tuto funkci!';
+	document.querySelector('.ctverecek').style.fontSize = '8px';
+	console.log('Gratulace, právě jsi spustila tuto funkci!');
+}
+
+/**
+ * Súčet
+ */
 function soucet(){
 	document.querySelector("#vysledek").innerHTML = secti(4, 5);
+}
+
+/**
+ * Zmena farby
+ */
+function barva() {
+	document.querySelector('.ctverecek').style.backgroundColor = 'green';
 }
